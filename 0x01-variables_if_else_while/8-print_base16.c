@@ -14,9 +14,9 @@ for (c = '0'; c <= '9'; c++)
 
 putchar(c);
 
-for (c = 'a'; d <= 'f'; d++)
+for (c = 'a'; c <= 'f'; d++)
 
-putchar(d);
+putchar(c);
 
 putchar('\n');
 
