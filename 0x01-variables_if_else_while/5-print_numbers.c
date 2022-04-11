@@ -8,14 +8,12 @@
  */
 int main(void)
 {
-char A;
+int i;
 
-for (A = 'a'; A <= 'z'; A++)
+for (i = '0'; i <= '9'; i++)
 {
-if (A != 'q' && A != 'e')
-putchar(A);
+putchar(i);
 }
-
 putchar('\n');
 
 return (0);
