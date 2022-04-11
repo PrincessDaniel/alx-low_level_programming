@@ -13,7 +13,7 @@ char A;
 
 for (A = 'a'; A <= 'z'; A++)
 {
-if (A != 'q'; && A != 'e');
+if (A != 'q' && A != 'e');
 putchar(A);
 }
 
