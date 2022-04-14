@@ -29,6 +29,11 @@ _putchar(' ');
 _putchar((j / 10) + '0');
 _putchar((j % 10) + '0');
 }
+else if (j < 9)
+{
+_putchar(',');
+_putchar(' ');
+}
 }
 _putchar('\n');
 }
