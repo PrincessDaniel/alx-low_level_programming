@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * _puts - prints a string, followed by a new line, to stdout
@@ -7,7 +8,7 @@
  * Return: 1 on success, -1 on error
  */
 
-void _puts(char *str)
+int _putchar(char c)
 {
 return (write(1, &c, 1));
 }
